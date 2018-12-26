@@ -9,3 +9,4 @@ def fizzbuzz(number)
     number
   end
 end
+puts (1..100).map { |x| fizzbuzz(x) }
